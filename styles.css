@@ -1,0 +1,37 @@
+body {
+    height: 1oovh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cyan;
+    
+    background-image: linear-gradient(to right, cyan , rgb(81, 35, 247));
+
+}
+.toggle {
+    position: relative;
+}
+.toggle input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.toggle .onoff {
+    color: aliceblue;
+    font-size: 6em;
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.slider {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: darkgray;
+    transition: 0.4s;
+    width: 200px;
+    height: 120px;
+}
