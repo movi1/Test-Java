@@ -1,9 +1,24 @@
-// function clickMe() {
+const toggle = document.querySelector('.toggle input')
 
-//         document.getElementById('bulb').src = "pic_bulbon.gif"
-    // }
+toggle.addEventListener('click', () => {
+
+const onOff = toggle.parentNode.querySelector('.onoff')
+
+
+
+if (toggle.checked == true ) {
+
+    onOff.textContent = 'ON'
+} else {
     
-    // function clickMe() {
-    //     document.getElementById('bulb').src = "pic_bulboff.gif"
-    // }
-    
+onOff.textContent = 'OFF'
+}
+
+})
+
+
+
+
+
+
+
